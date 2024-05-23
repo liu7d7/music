@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c029e63.css",
+    "main.js": "/static/js/main.6b29244c.js",
+    "static/media/IosevkaTermCurly-SemiBold.ttf": "/static/media/IosevkaTermCurly-SemiBold.3aa0a977036556b84927.ttf",
+    "static/media/sf-ui-display-heavy-586470160b9e5.otf": "/static/media/sf-ui-display-heavy-586470160b9e5.231bc1a484977910f09b.otf",
+    "static/media/sf-ui-display-medium-58646be638f96.otf": "/static/media/sf-ui-display-medium-58646be638f96.32f938759a1b1b8ce03b.otf",
+    "index.html": "/index.html",
+    "main.3c029e63.css.map": "/static/css/main.3c029e63.css.map",
+    "main.6b29244c.js.map": "/static/js/main.6b29244c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c029e63.css",
+    "static/js/main.6b29244c.js"
+  ]
+}
