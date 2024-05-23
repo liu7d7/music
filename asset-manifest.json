@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/liu7d7/music/static/css/main.42fc16a1.css",
-    "main.js": "/liu7d7/music/static/js/main.6b29244c.js",
-    "static/media/IosevkaTermCurly-SemiBold.ttf": "/liu7d7/music/static/media/IosevkaTermCurly-SemiBold.3aa0a977036556b84927.ttf",
-    "static/media/sf-ui-display-heavy-586470160b9e5.otf": "/liu7d7/music/static/media/sf-ui-display-heavy-586470160b9e5.231bc1a484977910f09b.otf",
-    "static/media/sf-ui-display-medium-58646be638f96.otf": "/liu7d7/music/static/media/sf-ui-display-medium-58646be638f96.32f938759a1b1b8ce03b.otf",
-    "index.html": "/liu7d7/music/index.html",
-    "main.42fc16a1.css.map": "/liu7d7/music/static/css/main.42fc16a1.css.map",
-    "main.6b29244c.js.map": "/liu7d7/music/static/js/main.6b29244c.js.map"
+    "main.css": "/static/css/main.3c029e63.css",
+    "main.js": "/static/js/main.6b29244c.js",
+    "static/media/IosevkaTermCurly-SemiBold.ttf": "/static/media/IosevkaTermCurly-SemiBold.3aa0a977036556b84927.ttf",
+    "static/media/sf-ui-display-heavy-586470160b9e5.otf": "/static/media/sf-ui-display-heavy-586470160b9e5.231bc1a484977910f09b.otf",
+    "static/media/sf-ui-display-medium-58646be638f96.otf": "/static/media/sf-ui-display-medium-58646be638f96.32f938759a1b1b8ce03b.otf",
+    "index.html": "/index.html",
+    "main.3c029e63.css.map": "/static/css/main.3c029e63.css.map",
+    "main.6b29244c.js.map": "/static/js/main.6b29244c.js.map"
   },
   "entrypoints": [
-    "static/css/main.42fc16a1.css",
+    "static/css/main.3c029e63.css",
     "static/js/main.6b29244c.js"
   ]
 }
