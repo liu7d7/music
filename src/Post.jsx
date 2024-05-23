@@ -19,7 +19,7 @@ export function Post(props) {
           {props.children}
           {props.id !== "welcome" &&
             <>
-              <div className={"mb-6 pt-6 mt-2 border-b-4 border-black"}/>
+              <div className={"mb-6 border-b-4 border-black"}/>
               <p>
                 That's the end of this post. Thanks for reading!
                 <br/>
@@ -35,15 +35,15 @@ export function Post(props) {
   )
 }
 
-const CyanName = "name1"
+const CyanName = "nerissa"
 
 export function Message(props) {
   return (
-    <div className={`flex ${props.name === CyanName ? "bg-cyan-50" : "bg-pink-50"} p-4 rounded-xl flex-row gap-4 mb-6 place-content-center`}>
+    <div className={`flex ${props.name === CyanName ? "bg-sky-50" : "bg-fuchsia-50"} p-4 rounded-xl flex-row gap-4 mb-6`}>
       <div className={"sf-ui-bold text-2xl my-auto"}>
         {props.name}
       </div>
-      <div>
+      <div className={"my-auto"}>
         {props.children}
       </div>
     </div>
@@ -52,8 +52,7 @@ export function Message(props) {
 
 export function Video(props) {
   return (
-    <iframe className={"w-full rounded-xl border-none"}
-            style={{aspectRatio: "1 / 1"}}
+    <iframe className={"w-full rounded-xl border-none aspect-square mb-6"}
             src={props.link}
             title={"YouTube video player"}
             allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"}
