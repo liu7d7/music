@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.af36505f.css",
-    "main.js": "/static/js/main.2012e5cb.js",
+    "main.css": "/static/css/main.382f7a51.css",
+    "main.js": "/static/js/main.b5f52020.js",
     "static/media/IosevkaTermCurly-SemiBold.ttf": "/static/media/IosevkaTermCurly-SemiBold.3aa0a977036556b84927.ttf",
     "static/media/sf-ui-display-heavy-586470160b9e5.otf": "/static/media/sf-ui-display-heavy-586470160b9e5.231bc1a484977910f09b.otf",
     "static/media/sf-ui-display-medium-58646be638f96.otf": "/static/media/sf-ui-display-medium-58646be638f96.32f938759a1b1b8ce03b.otf",
     "index.html": "/index.html",
-    "main.af36505f.css.map": "/static/css/main.af36505f.css.map",
-    "main.2012e5cb.js.map": "/static/js/main.2012e5cb.js.map"
+    "main.382f7a51.css.map": "/static/css/main.382f7a51.css.map",
+    "main.b5f52020.js.map": "/static/js/main.b5f52020.js.map"
   },
   "entrypoints": [
-    "static/css/main.af36505f.css",
-    "static/js/main.2012e5cb.js"
+    "static/css/main.382f7a51.css",
+    "static/js/main.b5f52020.js"
   ]
 }
