@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.382f7a51.css",
-    "main.js": "/static/js/main.21d7e48c.js",
+    "main.js": "/static/js/main.b1d626f1.js",
     "static/media/IosevkaTermCurly-SemiBold.ttf": "/static/media/IosevkaTermCurly-SemiBold.3aa0a977036556b84927.ttf",
     "static/media/sf-ui-display-heavy-586470160b9e5.otf": "/static/media/sf-ui-display-heavy-586470160b9e5.231bc1a484977910f09b.otf",
     "static/media/sf-ui-display-medium-58646be638f96.otf": "/static/media/sf-ui-display-medium-58646be638f96.32f938759a1b1b8ce03b.otf",
     "index.html": "/index.html",
     "main.382f7a51.css.map": "/static/css/main.382f7a51.css.map",
-    "main.21d7e48c.js.map": "/static/js/main.21d7e48c.js.map"
+    "main.b1d626f1.js.map": "/static/js/main.b1d626f1.js.map"
   },
   "entrypoints": [
     "static/css/main.382f7a51.css",
-    "static/js/main.21d7e48c.js"
+    "static/js/main.b1d626f1.js"
   ]
 }
