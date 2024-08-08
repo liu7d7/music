@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+.noto-sans-jp {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 .sf-ui-reg {
   font-family: 'SF UI Display', sans-serif
 }
