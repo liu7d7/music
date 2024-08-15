@@ -11,6 +11,31 @@ function today() {
 
 const posts =
   [
+    <Post id={"the_marias_sienna"} title={"the marías - sienna"} genre={"indie"} date={"august 7, 2024"}>
+      <Michael>
+        The new school year’s almost here, so it’s time to start making my homework playlist. I think this song is a perfect starter for it.
+      </Michael>
+      <Video link={"https://www.youtube.com/embed/EiS7cKfuf6w"}/>
+      <Nerissa>
+Yeah it feels so relaxing yet almost haunting. Her voice really adds to the soothing and dreamy quality of the song.
+      </Nerissa>
+      <Michael>
+    I know, right? And that soothing voice combined with the simple drum beat makes the song so undistracting when doing work. That ending is pretty cool, too.
+      </Michael>
+    </Post>,
+    <Post id={"oma_nujabes_luvsic_pt4"} title={"oma & nujabes - luv(sic) pt4"}
+          genre={"hip-hop"} date={"august 2, 2024"}>
+      <Michael>
+        Alright, I've spent the last *checks watch* hour deciding which one of the songs in this performance to discuss here, because all of them are brilliant. But here we go!
+      </Michael>
+      <Video link={"https://www.youtube.com/embed/FGOEMvymSIE?t=1020&si=7UL0u3Ru4S7ihwvX"}/>
+      <Michael>
+         The YouTube algorithm has actually shown me so many songs that I like over the past few months; it's pretty cool. Anyways, I ended up choosing this song for today, because, though it doesn't have as interesting of an instrumental as some of the other tracks, the wordplay that's peppered in throughout the entire song is really interesting to me. 
+      </Michael>
+      <Nerissa>
+Yeah the instrumental sounds almost like lo-fi, so it's surprising that it works so well with rap. I think it helps balance out the energy of the song really well, so that it's relaxing but also energetic.
+      </Nerissa>
+    </Post>,
     <Post id={"gracie_adams_close_to_you"} title={"gracie adams - close to you"}
           genre={"indie"} date={"july 30, 2024"}>
       <Nerissa>
