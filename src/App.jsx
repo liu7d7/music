@@ -11,6 +11,21 @@ function today() {
 
 const posts =
   [
+    <Post id={"oh_wonder_without_you"} title={"oh wonder - without you"} genre={"alt-pop"} date={"august 19, 2024"}>
+      <Michael>
+        It's only four days into the school year and I'm already missing summer so much, so here's a song that my summer class instructor played before class from time to time.
+      </Michael>
+      <Video link={"https://www.youtube.com/embed/zLAhRiUeJ8E"}/>
+      <Nerissa>
+Ooh this is probably one of my favorites so far. Their voices fit so well together, which makes it sound really soothing and almost motivating.
+      </Nerissa>
+      <Michael>
+I agree! Their voices really do fit great together. It works great with the instrumental too, especially in the chorus. That last "without you" sung after the piano note is extremely satisfying. 
+      </Michael>
+      <Michael>
+The rest of the songs in the album also have a similar vibe to them, and they're all I've been listening to for the past week or so. This duo is brilliant!
+      </Michael>
+    </Post>,
     <Post id={"the_marias_sienna"} title={"the marías - sienna"} genre={"indie"} date={"august 7, 2024"}>
       <Michael>
         The new school year’s almost here, so it’s time to start making my homework playlist. I think this song is a perfect starter for it.
@@ -759,7 +774,7 @@ function App() {
         id={`page-${props.n}`}
         onClick={() => {
           if (page === props.n - 1) return
-          window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+          window.scrollTo(0, 0);
           setPage(props.n - 1)
         }}
         className={`h-20 w-10 text-xl flex flex-row place-items-center ${page === props.n - 1 ? "sf-ui-bold hover:cursor-default" : "sf-ui-reg font-medium text-blue-600 hover:text-blue-500 hover:underline hover:cursor-pointer"}`}>
@@ -794,7 +809,7 @@ function App() {
             {page !== numPages - 1 &&
               <button
                 onClick={() => {
-                  window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+                  window.scrollTo(0, 0);
                   setPage(page + 1)
                 }}
                 className={`h-20 w-20 text-xl sf-ui-reg flex flex-row-reverse place-items-center font-medium text-blue-600 hover:text-blue-500 hover:underline hover:cursor-pointer`}>
@@ -804,7 +819,7 @@ function App() {
             {page !== 0 &&
               <button
                 onClick={() => {
-                  window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+                  window.scrollTo(0, 0);
                   setPage(page - 1)
                 }}
                 className={`h-20 w-20 text-xl sf-ui-reg flex flex-row-reverse place-items-center font-medium text-blue-600 hover:text-blue-500 hover:underline hover:cursor-pointer`}>
@@ -822,12 +837,15 @@ function App() {
       {posts.slice(page * pageSize, Math.min(posts.length, page * pageSize + pageSize))}
     </div>
   )
-
+  
+  let random = Math.random() > 0.5
   return (
     <div>
       <div className={"pt-4"}/>
       {page === 0 &&
         <Post id={"welcome"} title={"welcome!"} date={today()}>
+          { random &&
+            <>
           <Michael>
             I'm a student who spends way too much free time coding, and I'm
             always
@@ -837,6 +855,22 @@ function App() {
             I'm a student who finds new music mostly from dance, so I'm always
             open to some different song recs.
           </Nerissa>
+            </>
+          }
+          { !random &&
+            <>
+          <Nerissa>
+            I'm a student who finds new music mostly from dance, so I'm always
+            open to some different song recs.
+          </Nerissa>
+          <Michael>
+            I'm a student who spends way too much free time coding, and I'm
+            always
+            listening to music or looking for new music to listen to.
+          </Michael>
+            </>
+          }
+
         </Post>
       }
       <Page/>
