@@ -68,7 +68,7 @@ body {
 }
 
 @media (min-width:1281px) { 
-  body { --pad: calc(100% / 3); }
+  body { --pad: calc(100% / 2.8); }
 }
 
 lnk {
