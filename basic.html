@@ -33,11 +33,11 @@
  \
     let numeric = ""; \
     numeric += `<span><a href="/pages/p${n_pages}.html">${n_pages}</a></span>`; \
-    if (cur_page < n_pages - 1) numeric += `<span>...</span>`; \
-    if (cur_page + 1 < n_pages - 1) numeric += `<span><a href="/pages/p${cur_page + 1}.html">${cur_page + 1}</a></span>`; \
+    if (cur_page < n_pages - 2) numeric += `<span>...</span>`; \
+    if (cur_page + 1 < n_pages) numeric += `<span><a href="/pages/p${cur_page + 1}.html">${cur_page + 1}</a></span>`; \
     if (cur_page > 1 && cur_page < n_pages) numeric += `<span><a href="/pages/p${cur_page}.html">${cur_page}</a></span>`; \
-    if (cur_page - 1 > 2) numeric += `<span><a href="/pages/p${cur_page - 1}.html">${cur_page - 1}</a></span>`; \
-    if (cur_page > 2) numeric += `<span>...</span>`; \
+    if (cur_page - 1 > 1) numeric += `<span><a href="/pages/p${cur_page - 1}.html">${cur_page - 1}</a></span>`; \
+    if (cur_page > 3) numeric += `<span>...</span>`; \
     numeric += `<span><a href="/pages/p1.html">1</a></span>`; \
  \
     let arrows = ""; \
