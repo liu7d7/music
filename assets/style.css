@@ -113,7 +113,7 @@ nrm {
   color: #1e1e2f;
   padding: 1rem;
   background-color: #e0f2fe;
-  border-radius: 2rem 2rem 2rem 0.5rem;
+  border-radius: calc(0.5rem * var(--small) + 2rem * var(--big)) 2rem 2rem calc(0.5rem * var(--big) + 2rem * var(--small));
   border: .25rem solid #ceeafe;
   box-shadow: 0 var(--shy) var(--shr) var(--shc);
 }
@@ -125,7 +125,7 @@ mrm {
   color: #1e1e2f;
   padding: 1rem;
   background-color: #fae8ff;
-  border-radius: 2rem 2rem 2rem 0.5rem;
+  border-radius: calc(0.5rem * var(--small) + 2rem * var(--big)) 2rem 2rem calc(0.5rem * var(--big) + 2rem * var(--small));
   border: .25rem solid #f5d3ff;
   box-shadow: 0 var(--shy) var(--shr) var(--shc);
 }
@@ -159,7 +159,7 @@ nsm {
   color: #1e1e2f;
   padding: 1rem;
   background-color: #e0f2fe;
-  border-radius: 2rem 2rem 0.5rem 2rem;
+  border-radius: 2rem calc(0.5rem * var(--small) + 2rem * var(--big)) calc(0.5rem * var(--big) + 2rem * var(--small)) 2rem;
   border: .25rem solid #ceeafe;
   box-shadow: 0 var(--shy) var(--shr) var(--shc);
 }
@@ -171,7 +171,7 @@ msm {
   color: #1e1e2f;
   padding: 1rem;
   background-color: #fae8ff;
-  border-radius: 2rem 2rem 0.5rem 2rem;
+  border-radius: 2rem calc(0.5rem * var(--small) + 2rem * var(--big)) calc(0.5rem * var(--big) + 2rem * var(--small)) 2rem;
   border: .25rem solid #f5d3ff;
   box-shadow: 0 var(--shy) var(--shr) var(--shc);
 }
