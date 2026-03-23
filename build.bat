@@ -18,6 +18,7 @@ echo convert utf-8
 
 pushd final
 py ..\conv_utf8.py
+echo done!
+python -m http.server 8000
 popd 
 
-echo done!
